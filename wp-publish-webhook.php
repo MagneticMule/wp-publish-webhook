@@ -1,6 +1,6 @@
 <?php
 /**
-* Plugin Name: Publish Webhook
+* Plugin Name: WP Publish Webhook
 * Plugin URI: https://github.com/MagneticMule/wordpress-publish-webhook
 * Description: Trigger webhook on publish. e.g. Triggering build process on Netlify.
 * Version: 0.0.1

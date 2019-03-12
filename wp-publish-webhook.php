@@ -23,4 +23,4 @@ function trigger_on_publish()
   wp_remote_post('https://api.netlify.com/build_hooks/5c5577d6a53822dfd8d22996', ' ');
 }
 
-add_action('publish_post', 'trigger_on_publish');
+add_action('save_post', 'trigger_on_publish');
